@@ -52,7 +52,7 @@ function Navbar() {
             </div>
 
             <div className='readmore'>
-                READ MORE  <span className='circle'> 10</span>
+                <p>READ MORE</p>  <p style={{marginTop:"-6px"}}><i class="arrow1"></i> <i class="arrow2"></i></p>
             </div>
 
             <div className='prenext'>

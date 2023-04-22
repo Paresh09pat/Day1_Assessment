@@ -4,6 +4,7 @@ import Business from './components/Business'
 import Career from './components/Career'
 import LatestNews from './components/LatestNews'
 import Brand from './components/Brand'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Career />
      <LatestNews />
      <Brand />
+     <Footer />
     </div>
   )
 }
