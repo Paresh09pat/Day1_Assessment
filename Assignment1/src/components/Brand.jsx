@@ -5,7 +5,7 @@ function Brand() {
     <>
       <div id='brandmaindiv'>
         <div className='brandarrow'>
-          <h1>Our Brands  </h1>
+          <h1 className='obrand'>Our Brands  </h1>
           <span><i class="arrow"></i> <i class="arrow1"></i> <i class="arrow2"></i></span>
         </div>
         <p className='upcoming'> Our Upcoming Projects ...</p>

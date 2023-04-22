@@ -35,6 +35,11 @@
     font-weight: bold;
 }
 
+.bsnex {
+    text-decoration: underline;
+    text-decoration-color: rgb(236, 61, 236)
+}
+
 .sub {
     color: rgb(121, 114, 114);
 }
@@ -75,6 +80,14 @@
     text-align: end;
     padding-right: 24px;
     font-family: sans-serif;
+}
+
+.conbus {
+    background: linear-gradient(to right, #fd1b1b,
+            #fb38d7, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 1000;
 }
 
 .conspan {
@@ -160,6 +173,10 @@
     font-weight: 500;
     margin-top: 80px;
     margin-left: 500px;
+    background: linear-gradient(to right, #fd1b1b,
+    #fb38d7, #cf23cf);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
 
 .prearrows {
@@ -186,11 +203,12 @@
 .card3,
 .card4,
 .card5 {
-    border: 2px solid blue;
+    border: 3px solid rgb(138, 5, 150);
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+   
 }
 
 .card1 {
@@ -198,6 +216,7 @@
     height: 450px;
     margin-right: 1.2%;
     background-image: url("https://th.bing.com/th/id/OIP.EqO1qRznKxYtcqQKxvG7-QHaEc?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(164, 48, 236) 40%) 1;
 }
 
 .card2 {
@@ -205,6 +224,7 @@
     height: 450px;
     margin-right: 1.2%;
     background-image: url("./Images/truckman1.jpg");
+    border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(164, 48, 236) 40%) 1;
 }
 
 .card3 {
@@ -219,6 +239,7 @@
     height: 450px;
     margin-right: 1.2%;
     background-image: url("./Images/finance1.jpeg");
+    border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(164, 48, 236) 40%) 1;
 
 }
 
@@ -226,6 +247,7 @@
     width: 10%;
     height: 450px;
     background-image: url("./Images/ecom.jpeg");
+    border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(164, 48, 236)40%) 1;
 }
 
 .conspan1 {
@@ -259,7 +281,6 @@
 }
 
 .car {
-    border: 1px solid red;
     width: 40%;
     margin-left: 70%;
     margin-top: 50px;
@@ -267,6 +288,10 @@
     font-size: 50px;
     font-weight: 500;
     display: flex;
+    background: linear-gradient(to right, #fd0404 0%, #7a058a 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .cardivfornow {
@@ -417,6 +442,15 @@
     font-size: 40px;
     margin-left: 300px;
     display: flex;
+    background: linear-gradient(to right, #f71634 0%, #aa1caf 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.niimpossible{
+    background: linear-gradient(to right, #f71634 0%, #aa1caf 40%,rgb(241, 66, 66) 90%, #aa1caf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .latarrows {
@@ -434,11 +468,15 @@
 
 .subnewscard {
     width: 25%;
-    border: 1px solid yellowgreen;
+    border: 3px solid;
     height: 350px;
     margin-left: 1%;
+    border-image: linear-gradient(to bottom, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
 }
 
+.gradsub{
+    border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
+}
 .pic1 {
     width: 240px;
 }
@@ -475,13 +513,14 @@
 }
 
 .anything {
-    border: 1px solid red;
-    width: 69.5%;
+    border: 2px solid ;
+    width: 69.80%;
     height: 100px;
     margin-left: 15.65%;
     display: flex;
     box-sizing: border-box;
     margin-top: 15px;
+    border-image: linear-gradient(to right, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
 }
 
 .anyimg {
@@ -506,9 +545,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-
 }
 
+.obrand{
+    background: linear-gradient(to right, #f90123 0%, #aa1caf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
 
 .arrow,
 .arrow1,
@@ -565,6 +608,9 @@
 .imaino {
     margin-left: 175px;
     margin-top: 30px;
+    background: linear-gradient(to right, #f42ea8 0%, #aa1caf 10%,#f90123 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .prenextbrand {

@@ -10,7 +10,7 @@ function Navbar() {
                 <div> <img className='logoimg' src={logomain} /></div>
 
                 <div className='bardiv'>
-                    <p className='bsn'> Businesses</p>
+                    <p className='bsn bsnex'> Businesses</p>
                     <p className='bsn'> Career</p>
                     <p className='bsn'> About Us</p>
                     <p className='bsn'> Media </p>
@@ -39,7 +39,7 @@ function Navbar() {
             </div>
 
             <div className='connect'>
-                <h1>Connecting Your Business To a <br /> World of Pissibilities</h1>
+                <h1 className='conbus'>Connecting Your Business To a <br /> World of Pissibilities</h1>
                 <span className='conspan'> For more than 40 years, RP Transportation provided safe,reliable<br />
                     reliable, affordable transportation services to cities, countries, <br />
                     municipalies, and other juridictiona entities, as well <br />

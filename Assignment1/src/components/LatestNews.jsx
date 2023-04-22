@@ -20,7 +20,7 @@ function LatestNews() {
                         </div>
                     </div>
 
-                    <div className='subnewscard'>
+                    <div className='subnewscard gradsub'>
                         <h3 className='headings'> Twitter</h3>
                         <div className='subcolorcardtext2'>
                             For more than 40 years, RP Transportation provided safe,reliable
@@ -44,7 +44,7 @@ function LatestNews() {
                         </div>
                     </div>
 
-                    <div className='subnewscard'>
+                    <div className='subnewscard gradsub'>
                         <h3 className='headings'> Instagram</h3>
                         <div className='subcolorcardtext2'>
                             For more than 40 years, RP Transportation provided safe,reliable
@@ -60,7 +60,7 @@ function LatestNews() {
                 <div className='anything'>
                     <div><img className='anyimg' src={possibleimg} /></div>
                     <div className='subanything'>
-                        <h2>Nothing is impossible, the world itself says ' I'am possible '! ...</h2>
+                        <h2 className='niimpossible'>Nothing is impossible, the world itself says ' I'am possible '! ...</h2>
                         <p >The RedPhantom flag is raised in all fields, including technology and agriculture.</p>
                     </div>
                 </div>
