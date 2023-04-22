@@ -5,7 +5,7 @@ function LatestNews() {
     return (
         <>
             <div id='mainlatestdiv'>
-                <h1 className='latest'> Latest News</h1>
+                <h1 className='latest'> Latest News   <p className='latarrows'><i class="arrow"></i> <i class="arrow1"></i> <i class="arrow2"></i></p></h1>
 
                 <div className='newscard'>
                     <div className='subnewscard'>
@@ -63,6 +63,17 @@ function LatestNews() {
                         <h2>Nothing is impossible, the world itself says ' I'am possible '! ...</h2>
                         <p >The RedPhantom flag is raised in all fields, including technology and agriculture.</p>
                     </div>
+                </div>
+
+
+                <div className='circles4'>
+                    <div className='subcir1'>  </div>
+                    <div className='subciroff3'></div>
+                    <div className='subcir2'></div>
+                    <div className='subcir3'></div>
+                    <div className='home3'>News</div>
+                    <div className='subcir4'></div>
+                    <div className='subcir5'></div>
                 </div>
 
             </div>

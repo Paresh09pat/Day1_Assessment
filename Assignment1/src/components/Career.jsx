@@ -4,7 +4,11 @@ function Career() {
     return (
         <>
             <div id='carmaindiv'>
-                <h1 className='car'>Career</h1>
+               {/* <div className='carwitharrow'> */}
+               <h1 className='car'>Career  <p className='arrows'><i class="arrow"></i> <i class="arrow1"></i> <i class="arrow2"></i></p></h1>
+               
+               {/* </div> */}
+
 
                 <div className='cardivfornow'>
                     <div className='youtube'>
@@ -55,6 +59,18 @@ function Career() {
                         </div>
                     </div>
                 </div>
+
+
+                <div className='circles3'>
+                    <div className='subcir1'>  </div>
+                    <div className='subciroff2'></div>
+                    <div className='subcir2'></div>
+                    <div className='subcir3'></div>
+                    <div className='home2'>Career</div>
+                    <div className='subcir4'></div>
+                    <div className='subcir5'></div>
+                </div>
+
             </div>
         </>
     )

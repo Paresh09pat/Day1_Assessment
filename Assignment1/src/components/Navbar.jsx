@@ -21,12 +21,12 @@ function Navbar() {
 
             <div className='overview'>
                 <div className=''>
-                    <p  className='bsn' style={{textDecoration:"underLine"}}>Business Overview </p>
+                    <p className='bsn' style={{ textDecoration: "underLine" }}>Business Overview </p>
                     <span className='sub'> Learn More</span>
                 </div>
 
                 <div>
-                    <p  className='bsn' style={{textDecoration:"underLine"}}>Business</p>
+                    <p className='bsn' style={{ textDecoration: "underLine" }}>Business</p>
                     <span className='sub1'> Technology</span> <br />
                     <span className='sub'> Transport</span> <br />
                     <span className='sub'> Finance</span><br />
@@ -39,12 +39,12 @@ function Navbar() {
             </div>
 
             <div className='connect'>
-                <h1>Connecting Your Business To a <br/> World of Pissibilities</h1>
-                <span className='conspan'> For more than 40 years, RP Transportation provided safe,reliable<br/>
-                     reliable, affordable transportation services to cities, countries, <br/>
-                     municipalies, and other juridictiona entities, as well <br/>
-                     as private corporations, non-profit agencies,<br/>
-                      and community organizations.</span>
+                <h1>Connecting Your Business To a <br /> World of Pissibilities</h1>
+                <span className='conspan'> For more than 40 years, RP Transportation provided safe,reliable<br />
+                    reliable, affordable transportation services to cities, countries, <br />
+                    municipalies, and other juridictiona entities, as well <br />
+                    as private corporations, non-profit agencies,<br />
+                    and community organizations.</span>
             </div>
 
             <div className='newgoal'>
@@ -59,6 +59,17 @@ function Navbar() {
                 <div className='borbot'> Prev</div>
                 <div className='borbot1'>2</div>
                 <div className='borbot2'>Next</div>
+            </div>
+
+
+            <div className='circles'>
+                <div className='subciroff'></div>
+                <div className='home'>Home</div>
+                <div className='subcir1'>  </div>
+                <div className='subcir2'></div>
+                <div className='subcir3'></div>
+                <div className='subcir4'></div>
+                <div className='subcir5'></div>
             </div>
 
         </>

@@ -155,9 +155,16 @@
 }
 
 .presence {
+    display: flex;
     text-align: center;
     font-weight: 500;
     margin-top: 80px;
+    margin-left: 500px;
+}
+
+.prearrows {
+    margin-top: -23px;
+    margin-left: 20px;
 }
 
 .presence1 {
@@ -253,12 +260,13 @@
 
 .car {
     border: 1px solid red;
-    width: 20%;
+    width: 40%;
     margin-left: 70%;
     margin-top: 50px;
     font-family: sans-serif;
     font-size: 50px;
     font-weight: 500;
+    display: flex;
 }
 
 .cardivfornow {
@@ -269,25 +277,31 @@
     box-sizing: border-box;
 }
 
+.arrows {
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
 .youtube {
     width: 45%;
     height: 600px;
     box-sizing: border-box;
 }
 
-.caroption{
+.caroption {
     font-family: sans-serif;
     font-size: 45px;
     color: white;
     margin-top: 350px;
 }
-.caroption1{
+
+.caroption1 {
     font-family: sans-serif;
     color: rgb(252, 233, 233);
 }
 
-.caroptiontext{
-    color: white;
+.caroptiontext {
+    color: rgb(113, 111, 111);
 }
 
 .mixcard {
@@ -383,7 +397,7 @@
     padding-right: 30px;
 }
 
-.carhashpurple{
+.carhashpurple {
     font-family: sans-serif;
     font-size: 45px;
     font-weight: 500;
@@ -392,19 +406,25 @@
 
 /* latest  */
 
-#mainlatestdiv{
+#mainlatestdiv {
     width: 100%;
     height: 620px;
 }
 
-.latest{
+.latest {
     color: white;
     font-family: sans-serif;
     font-size: 40px;
     margin-left: 300px;
+    display: flex;
 }
 
-.newscard{
+.latarrows {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.newscard {
     width: 70%;
     height: 360px;
     margin-left: 15%;
@@ -412,27 +432,27 @@
     box-sizing: border-box;
 }
 
-.subnewscard{
+.subnewscard {
     width: 25%;
     border: 1px solid yellowgreen;
     height: 350px;
     margin-left: 1%;
 }
 
-.pic1{
-width: 240px;
+.pic1 {
+    width: 240px;
 }
 
-.pic2{
+.pic2 {
     width: 240px;
     padding-top: 27px;
 }
 
-.pic3{
+.pic3 {
     width: 240px;
 }
 
-.pic4{
+.pic4 {
     width: 240px;
     padding-top: 30px;
 }
@@ -448,13 +468,13 @@ width: 240px;
     padding-right: 5px;
 }
 
-.headings{
+.headings {
     color: white;
     font-family: sans-serif;
     margin-left: 20px;
 }
 
-.anything{
+.anything {
     border: 1px solid red;
     width: 69.5%;
     height: 100px;
@@ -464,13 +484,13 @@ width: 240px;
     margin-top: 15px;
 }
 
-.anyimg{
+.anyimg {
     height: 95px;
     width: 180px;
     margin-left: 50px;
 }
 
-.subanything{
+.subanything {
     color: white;
     font-family: sans-serif;
     margin-left: 20px;
@@ -478,11 +498,250 @@ width: 240px;
 
 /* brand */
 
-#brandmaindiv{
+#brandmaindiv {
     width: 100%;
     height: 700px;
     border: 2px solid yellow;
     background-image: url("./Images/bitcoin.png");
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+
+}
+
+
+.arrow,
+.arrow1,
+.arrow2 {
+    width: 20px;
+    height: 20px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 white;
+    transform: rotate(-135deg);
+    margin-top: 30px;
+}
+
+.arrow {
+    box-shadow: -2px 2px 0 rgb(94, 90, 90);
+}
+
+.arrow1 {
+    box-shadow: -2px 2px 0 rgb(194, 192, 192);
+
+}
+
+.arrow2 {
+    box-shadow: -2px 2px 0 white;
+
+}
+
+.brandarrow {
+    display: flex;
+    margin-left: 250px;
+}
+
+.upcoming {
+    border: 2px solid aqua;
+    width: 15%;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.creatediv {
+    border-left: 3px solid white;
+    margin-left: 155px;
+    padding-left: 15px;
+}
+
+.createdivhead {
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.imaino {
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+.prenextbrand {
+    color: white;
+    border: 1px solid red;
+    margin-top: 130px;
+    width: 25%;
+    margin-left: 70px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 80px;
+}
+
+
+.circles {
+    border-left: 2px solid rgb(212, 210, 210);
+    height: 400px;
+    position: absolute;
+    top: 0;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.subcir1,
+.subcir2,
+.subcir3,
+.subcir4,
+.subcir5 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -6px;
+}
+
+.subcir2 {
+    margin-top: 88px;
+}
+
+.subcir3 {
+    margin-top: 88px;
+}
+
+.subcir4 {
+    margin-top: 88px;
+}
+
+.subcir5 {
+    margin-top: 88px;
+}
+
+.subciroff {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -12.5px;
+    top: -6.5px;
+}
+
+.home {
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.circles2 {
+    border-left: 2px solid rgb(212, 210, 210);
+    height: 400px;
+    position: absolute;
+    top: 850px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.subciroff1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -12.5px;
+    top: 91.5px;
+}
+
+.home1 {
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    top: 95px;
+}
+
+
+.circles3 {
+    border-left: 2px solid rgb(212, 210, 210);
+    height: 400px;
+    position: absolute;
+    top: 1650px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.subciroff2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -12.5px;
+    top: 190px;
+}
+
+.home2 {
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    top: 193px;
+}
+
+
+.circles4 {
+    border-left: 2px solid rgb(212, 210, 210);
+    height: 400px;
+    position: absolute;
+    top: 2350px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.subciroff3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -12.5px;
+    top: 287.5px;
+}
+
+.home3 {
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    top: 290px;
+}
+
+
+.circles5 {
+    border-left: 2px solid rgb(212, 210, 210);
+    height: 400px;
+    position: absolute;
+    top: 3000px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.subciroff4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -12.5px;
+    top: 385px;
+}
+
+.home4 {
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    top: 388px;
 }
