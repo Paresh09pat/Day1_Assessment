@@ -2,14 +2,10 @@ import React from 'react'
 
 function Career() {
     return (
-        <>
+        <> 
             <div id='carmaindiv'>
-               {/* <div className='carwitharrow'> */}
                <h1 className='car'>Career  <p className='arrows'><i class="arrow"></i> <i class="arrow1"></i> <i class="arrow2"></i></p></h1>
-               
-               {/* </div> */}
-
-
+    
                 <div className='cardivfornow'>
                     <div className='youtube'>
                         <h1  className='caroption'># Careeroption</h1>
@@ -43,7 +39,7 @@ function Career() {
                             <div className='subcolorcard2'>
                                 <h2 className='joingrp'># Join Us The  RedPhantom Group </h2>
                                 <div className='subcolorcardtext1'>
-                                    Explore a career with the Redphantom group. Browse and search for jobs with over Four Redphantom companies.
+                                    Explore a career with the Redphantom is group. Browse and search for jobs with over Four that is the Redphantom comp companies for us . It is the best solution for the freshers .
                                 </div>
                             </div>
                             <div className='subcolorcard3'>

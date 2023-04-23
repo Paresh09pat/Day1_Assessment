@@ -20,13 +20,13 @@ function Navbar() {
             </div>
 
             <div className='overview'>
-                <div className=''>
-                    <p className='bsn' style={{ textDecoration: "underLine" }}>Business Overview </p>
+                <div className='ov'>
+                    <p className='bsn1' style={{ textDecoration: "underLine" }}>Business Overview </p>
                     <span className='sub'> Learn More</span>
                 </div>
 
                 <div>
-                    <p className='bsn' style={{ textDecoration: "underLine" }}>Business</p>
+                    <p className='bsn1' style={{ textDecoration: "underLine" }}>Business</p>
                     <span className='sub1'> Technology</span> <br />
                     <span className='sub'> Transport</span> <br />
                     <span className='sub'> Finance</span><br />

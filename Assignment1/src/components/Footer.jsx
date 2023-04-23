@@ -16,18 +16,44 @@ function Footer() {
                 </div>
 
                 <div className='emailenter'>
-                    Enter Your Email to Subscribe
+                    Enter Your Email to Subscribe <span className='arrow11'> &#x2192; </span>
                 </div>
             </div>
 
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className='footmaincard'>
+                <div className='footmaincard1'>
+                    <p className='colorchange'>Businesses</p> 
+                    <p>Technology</p>
+                    <p>Transport</p>
+                    <p>Finance</p>
+                    <p>E-Commerce</p>
+                </div>
+
+                <div className='footmaincard2'>
+                    <p className='colorchange'>Community</p> 
+                    <p>Education </p>
+                    <p>Empowerment</p>
+                    <p>Environment</p>
+                    <p>Health</p>
+                </div>
+
+                <div className='footmaincard3'>
+                    <p className='colorchange'>About</p> 
+                    <p>Fonder</p>
+                    <p>Chairman</p>
+                    <p>Team</p>
+                </div>
+
+                <div className='footmaincard4'>
+                    <p className='colorchange'>News</p> 
+                    <p>Photos</p>
+                    <p>Videos</p>
+                    <p>News</p>
+                    <p>Downloads</p>
+                </div>
             </div>
 
-            <div>@ 2019-2024 RedPhantom Industries Private Limited . All Rights Reserved.</div>
+            <div className='last'>@ 2019-2024 RedPhantom Industries Private Limited . All Rights Reserved.</div>
 
         </>
     )

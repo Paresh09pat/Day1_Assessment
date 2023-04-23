@@ -61,7 +61,7 @@ function LatestNews() {
                     <div><img className='anyimg' src={possibleimg} /></div>
                     <div className='subanything'>
                         <h2 className='niimpossible'>Nothing is impossible, the world itself says ' I'am possible '! ...</h2>
-                        <p >The RedPhantom flag is raised in all fields, including technology and agriculture.</p>
+                        <p className='niimpossiblet'>The RedPhantom flag is raised in all fields, including technology and agriculture.</p>
                     </div>
                 </div>
 

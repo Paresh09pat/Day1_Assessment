@@ -167,9 +167,9 @@
     margin-top: 60px;
     margin-left: 500px;
     background: linear-gradient(to right, #fd1b1b,
-    #fb38d7, #cf23cf);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+            #fb38d7, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .prearrows {
@@ -201,7 +201,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-   
+
 }
 
 .card1 {
@@ -440,10 +440,10 @@
     -webkit-text-fill-color: transparent;
 }
 
-.niimpossible{
-    background: linear-gradient(to right, #f71634 0%, #aa1caf 40%,rgb(241, 66, 66) 90%, #aa1caf 100%);
+.niimpossible {
+    background: linear-gradient(to right, #f71634 0%, #aa1caf 40%, rgb(241, 66, 66) 90%, #aa1caf 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 .latarrows {
@@ -467,9 +467,10 @@
     border-image: linear-gradient(to bottom, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
 }
 
-.gradsub{
+.gradsub {
     border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
 }
+
 .pic1 {
     width: 240px;
 }
@@ -506,7 +507,7 @@
 }
 
 .anything {
-    border: 2px solid ;
+    border: 2px solid;
     width: 69.80%;
     height: 100px;
     margin-left: 15.65%;
@@ -540,10 +541,10 @@
     color: white;
 }
 
-.obrand{
+.obrand {
     background: linear-gradient(to right, #f90123 0%, #aa1caf 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 .arrow,
@@ -564,12 +565,10 @@
 
 .arrow1 {
     box-shadow: -2px 2px 0 rgb(194, 192, 192);
-
 }
 
 .arrow2 {
     box-shadow: -2px 2px 0 white;
-
 }
 
 .brandarrow {
@@ -601,9 +600,9 @@
 .imaino {
     margin-left: 175px;
     margin-top: 30px;
-    background: linear-gradient(to right, #f42ea8 0%, #aa1caf 10%,#f90123 15%);
+    background: linear-gradient(to right, #f42ea8 0%, #aa1caf 10%, #f90123 15%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 .prenextbrand {
@@ -786,20 +785,20 @@
 
 /* footer */
 
-#mainfooterdiv{
-display: flex;
-box-sizing: border-box;
-color: white;
-margin-top: 20px;
+#mainfooterdiv {
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
 }
 
-.logoimgfooter{
+.logoimgfooter {
     width: 120px;
     height: 60px;
     margin-left: 150px;
 }
 
-.footpic{
+.footpic {
     width: 30px;
     height: 30px;
     margin-bottom: 20px;
@@ -808,31 +807,642 @@ margin-top: 20px;
 
 }
 
-#footpicdiv{
+#footpicdiv {
     display: flex;
     padding-top: 10px;
 }
 
-.letsgate{
+.letsgate {
     margin-left: 30px;
     margin-right: 150px;
 }
 
-.follow{
+.follow {
     margin-right: 15px;
     font-family: sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 
-.emailenter{
+.emailenter {
     border: 1px solid purple;
     width: 300px;
     height: 30px;
     text-align: center;
-    padding-top: 10px;
-    background: linear-gradient(to right, purple,black);
+    padding-bottom: 10px;
+    background: linear-gradient(to right, purple, black);
     font-family: sans-serif;
-    margin-left:120px ;
+    margin-left: 120px;
     margin-top: 10px;
+}
+
+.arrow11 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.footmaincard {
+    width: 60%;
+    margin-left: 20%;
+    height: 200px;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+}
+
+.footmaincard1,
+.footmaincard2,
+.footmaincard3,
+.footmaincard4 {
+    width: 25%;
+    height: 200px;
+}
+
+.colorchange {
+    background: linear-gradient(to right, #fd1b1b,
+            #9e0dd7 20%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.last {
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #firstdiv {
+        height: 550px;
+    }
+
+    #navdiv {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .bardiv {
+        color: white;
+        display: flex;
+        margin-left: 0px;
+    }
+
+    .logoimg {
+        width: 120px;
+        margin-left: 80px;
+    }
+
+    .searchimg {
+        width: 15px;
+        height: 15px;
+        padding-top: 17px;
+        margin-left: 10px;
+    }
+
+    .bsn {
+        margin-left: 10px;
+        padding-right: 5px;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+
+    .bsn1 {
+        margin-left: 0px;
+        padding-right: 5px;
+        font-weight: lighter;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .bsnex {
+        display: none;
+    }
+
+    .sub,
+    .sub1 {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .ov {
+        margin-right: 20px;
+    }
+
+    .overview {
+        box-sizing: border-box;
+        width: 100%;
+        height: 120px;
+        margin-left: 0%;
+    }
+
+    .year {
+        width: 25%;
+        margin-left: 73%;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .connect {
+        width: 95%;
+        margin-left: 0%;
+        padding-right: 4px;
+        font-size: 7px;
+    }
+
+    .conspan {
+        font-size: 8.5px;
+        color: white;
+    }
+
+    .newgoal {
+        color: #d00991;
+        width: 100%;
+        margin-left: 0%;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .readmore {
+        width: 34%;
+        margin-left: 65%;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .arrow,
+    .arrow1,
+    .arrow2 {
+        width: 10px;
+        height: 10px;
+        margin-top: 20px;
+    }
+
+    .prenext {
+        margin-top: 0px;
+        margin-left: 50%;
+        padding: 10px;
+        padding-left: 0px;
+    }
+
+    /* business */
+
+    #bsnmaindiv {
+        width: 100%;
+        height: 0px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .presence {
+        width: 99%;
+        font-size: 18px;
+        text-align: start;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .prearrows {
+        margin-top: -13px;
+        margin-left: 5px;
+    }
+
+    .presence1 {
+        text-align: center;
+        line-height: 15px;
+        font-size: 11px;
+    }
+
+    #carddiv {
+        width: 100%;
+        height: 450px;
+        margin-left: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        border: 3px solid rgb(138, 5, 150);
+        box-sizing: border-box;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .card1 {
+        width: 45%;
+        height: 200px;
+        margin-right: 0%;
+        margin-left: 9%;
+    }
+
+    .card2 {
+        width: 45%;
+        height: 200px;
+        margin-right: 0%;
+        margin-left: 1%;
+    }
+
+    .card3 {
+        width: 91%;
+        height: 200px;
+        margin-right: 0%;
+        margin-left: 9%;
+        box-sizing: border-box;
+        padding: 0px 10px 0px 20px;
+        margin-top: 3px;
+    }
+
+    .card4 {
+        width: 45%;
+        margin-left: 8.5%;
+        height: 200px;
+        margin-top: 3px;
+    }
+
+    .card5 {
+        margin-left: 0%;
+        width: 45%;
+        height: 200px;
+        margin-top: 3px;
+    }
+
+    .conspan1 {
+        font-size: 8px;
+        text-align: end;
+        line-height: 10px;
+    }
+
+    .conspan2 {
+        text-align: end;
+        line-height: 20px;
+        font-size: 18px;
+    }
+
+    .conspan1tt {
+        display: none;
+    }
+
+    .num {
+        margin-top: 120px;
+        text-align: end;
+        font-size: 30px;
+    }
+
+
+    /* career */
+
+    #carmaindiv {
+        width: 100%;
+        border-top: 1px solid black;
+        height: 750px;
+        background-image: url("./Images/bluecoatman.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 800px;
+    }
+
+    .car {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .cardivfornow {
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .youtube {
+        width: 90%;
+        height: 200px;
+        margin-left: 10%;
+    }
+
+    .caroption {
+        font-size: 25px;
+        color: rgb(19, 146, 242);
+        margin-top: 0px;
+    }
+
+    .caroption1 {
+        font-family: sans-serif;
+        color: rgb(49, 183, 216);
+    }
+
+    .caroptiontext {
+        color: rgb(113, 111, 111);
+    }
+
+    .mixcard {
+        width: 100%;
+        height: 500px;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    .twomaincard,
+    .twomaincard1 {
+        width: 45%;
+        height: 500px;
+    }
+
+    .twomaincard {
+        margin-right: 0%;
+    }
+
+    .subcolorcard {
+        color: white;
+        height: 170px;
+    }
+
+    .subcolorcard1 {
+        height: 200px;
+        color: black;
+    }
+
+    .subcolorcard2 {
+        height: 210px;
+    }
+
+    .subcolorcard3 {
+        height: 160px;
+    }
+
+    .subcolorcardtext,
+    .subcolorcardtext1 {
+        margin-left: 3%;
+        padding-left: 5px;
+    }
+
+    .subcolorcardtext {
+        height: 90px;
+        font-size: 8px;
+        margin-top: 20px;
+        line-height: 10px;
+    }
+
+    .subcolorcardtext1 {
+        height: 110px;
+        font-size: 12px;
+        margin-top: 15px;
+        line-height: 12px;
+    }
+
+    .jobhash {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .beware {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 17px;
+    }
+
+    .joingrp {
+        padding-right: 10px;
+        font-size: 17px;
+    }
+
+    .carhashpurple {
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: 25px;
+    }
+
+    /* latest news */
+
+    #mainlatestdiv {
+        width: 100%;
+        height: 820px;
+    }
+
+    .latest {
+        font-size: 25px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .latarrows {
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+
+    .newscard {
+        width: 100%;
+        height: 360px;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+
+    .subnewscard {
+        width: 43%;
+        border: 2px solid;
+        height: 270px;
+        margin-left: 3px;
+        margin-bottom: 40px;
+        border-image: linear-gradient(to bottom, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
+    }
+
+    .pic1 {
+        width: 130px;
+    }
+
+    .pic2 {
+        width: 130px;
+        padding-top: 20px;
+    }
+
+    .pic3 {
+        width: 130px;
+    }
+
+    .pic4 {
+        width: 130px;
+        padding-top: 20px;
+    }
+
+    .subcolorcardtext2 {
+        height: 106px;
+        font-size: 7px;
+        line-height: 12px;
+        border-image: linear-gradient(to top, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
+    }
+
+    .headings {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .anything {
+        border: 2px solid;
+        width: 90%;
+        height: 120px;
+        margin-left: 10%;
+        display: flex;
+        border-image: linear-gradient(to right, rgb(254, 68, 189), rgb(187, 28, 236) 70%) 1;
+        margin-top: 240px;
+    }
+
+    .anyimg {
+        height: 50px;
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .subanything {
+        color: white;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+
+    .niimpossible {
+        font-size: 14px;
+    }
+
+    .niimpossiblet {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+    /* side bars */
+    .circles {
+        height: 200px;
+        top: 0;
+        margin-left: 15px;
+        margin-top: 300px;
+    }
+
+    .subcir1,
+    .subcir2,
+    .subcir3,
+    .subcir4,
+    .subcir5 {
+        width: 5px;
+        height: 5px;
+        margin-left: -3px;
+    }
+
+    .subcir2,
+    .subcir3,
+    .subcir4,
+    .subcir5 {
+        margin-top: 44px;
+    }
+
+    .subciroff {
+        width: 15px;
+        height: 15px;
+        left: -10px;
+    }
+
+    .home {
+        margin-top: -5px;
+        font-size: 12px;
+    }
+
+    .circles2 {
+        height: 200px;
+        top: 480px;
+        margin-left: 15px;
+        margin-top: 205px;
+    }
+
+    .subciroff1 {
+        width: 15px;
+        height: 15px;
+        left: -10px;
+        top: 43px;
+    }
+
+    .home1 {
+        margin-left: 20px;
+        font-size: 12px;
+        top: 45px;
+    }
+
+
+    .circles3 {
+        height: 200px;
+        top: 1430px;
+        margin-left: 15px;
+    }
+
+    .subciroff2 {
+        width: 15px;
+        height: 15px;
+        left: -10px;
+        top: 92px;
+    }
+
+    .home2 {
+        margin-left: 15px;
+        top: 94px;
+        font-size: 12px;
+    }
+
+    .circles4 {
+        height: 200px;
+        top: 2185px;
+        margin-left: 15px;
+    }
+
+    .subciroff3 {
+        width: 15px;
+        height: 15px;
+        left: -10px;
+        top: 140.5px;
+    }
+
+    .home3 {
+        top: 142px;
+        font-size: 12px;
+    }
+
+    .circles5 {
+        height: 400px;
+        top: 3000px;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    .subciroff4 {
+        width: 20px;
+        height: 20px;
+        left: -12.5px;
+        top: 385px;
+    }
+
+    .home4 {
+        margin-left: 20px;
+        top: 388px;
+    }
+
+
+
+
 }

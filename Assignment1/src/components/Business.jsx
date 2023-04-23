@@ -7,7 +7,7 @@ function Business() {
 
             <div id='bsnmaindiv'>
 
-                <h1 className='presence'>Presence That Has an Impact <p className='prearrows'><i class="arrow"></i> <i class="arrow1"></i> <i class="arrow2"></i></p></h1>
+                <h1 className='presence'>Presence That Has an Impact <p className='prearrows'><i className="arrow "></i> <i className="arrow1 "></i> <i className="arrow2 "></i></p></h1>
 
                 <p className='presence1'>
                     We work in industries that are essential to the economy . <br />
@@ -30,12 +30,12 @@ function Business() {
                             RedPhantom <br />Transortation <br />Services
                         </h1>
                         <div className='conspan1'>
-                            <span > For more than 40 years, RP Transportation provided safe,reliable<br />
+                            <span> For more than 40 years, RP Transportation provided safe,reliable<br />
                                 reliable, affordable transportation services to cities, countries, <br />
                                 municipalies, and other juridictiona entities, as well <br />
                                 as private corporations, non-profit agencies,<br />
                                 and community organizations.</span> <br />
-                            <span> For more than 40 years, RP Transportation provided safe,reliable<br />
+                            <span className='conspan1tt'> For more than 40 years, RP Transportation provided safe,reliable<br />
                                 reliable, affordable transportation services to cities, countries, <br />
                                 municipalies, and other juridictiona entities, as well <br />
                                 as private corporations, non-profit agencies,<br />
